@@ -1,1 +1,68 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: 'Estedad Regular';
+  src: url('/Fonts/Estedad-FD-Regular.ttf') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Estedad Bold';
+  src: url('/Fonts/Estedad-FD-Bold.woff2') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Estedad ExtraBold';
+  src: url('/Fonts/Estedad-FD-ExtraBold.woff2') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Estedad Light';
+  src: url('/Fonts/Estedad-FD-Light.woff2') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Estedad SemiBold';
+  src: url('/Fonts/Estedad-FD-SemiBold.woff2') format('truetype');
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Estedad Medium';
+  src: url('/Fonts/Estedad-FD-Medium.woff2') format('truetype');
+  font-display: swap;
+}
+
+@theme {
+  --font-Estedad-Regular: "Estedad Regular";
+  --font-Estedad-Bold: "Estedad Bold";
+  --font-Estedad-Light: "Estedad Light";
+  --font-Estedad-ExtraBold: "Estedad ExtraBold";
+  --font-Estedad-SemiBold: "Estedad SemiBold";
+  --font-Estedad-Medium: "Estedad Medium";
+  --breakpoint-: ;
+  --breakpoint-: ;
+}
+
+/* class */
+@layer components {
+  .flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+}
+
+/* elements */
+
+@layer base {
+  body {
+   font-family: Estedad Regular, sans-serif;
+   color: #fff;
+  }
+}
+
+/* container */
+
+@utility container {
+  @apply mx-auto px-3.75
+}
