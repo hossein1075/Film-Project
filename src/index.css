@@ -40,6 +40,8 @@
   --font-Estedad-Medium: "Estedad Medium";
   --breakpoint-: ;
   --breakpoint-: ;
+  --radius-15px: 0.9375rem; 
+
 }
 
 /* class */
@@ -59,6 +61,9 @@
    font-family: Estedad Regular, sans-serif;
    color: #fff;
    background-color: #1c1c22;
+  }
+  button {
+    cursor: pointer;
   }
 }
 
