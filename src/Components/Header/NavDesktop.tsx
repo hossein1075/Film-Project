@@ -11,17 +11,17 @@ function NavDesktop() {
     <nav>
         <div className="container">
             <div className='flex justify-between py-4'>
-            <div className='flex'>
-                <div className='flex'>
-                    <img src="/Icons/Favicon/logo.png" alt="film-site" />
-                    <span>کلاکت فیلم</span>
+            <div className='flex basis-[50%] gap-5'>
+                <div className='flexCenter gap-1'>
+                    <img src="/Icons/Favicon/logo.png" className='size-10' alt="film-site" />
+                    <span className='font-Estedad-Bold'>کلاکت فیلم</span>
                 </div>
-                <ul className='flex'>
+                <ul className='flexCenter gap-3.75'>
                      <li>
                         <Link to='#'>صفحه اصلی</Link>
                      </li>
                      <li>
-                        <Link to='#' className='flex'>
+                        <Link to='#' className='flexCenter gap-1'>
                         <IoVideocamOutline />
                         فیلم
                         </Link>
@@ -30,7 +30,7 @@ function NavDesktop() {
                         <Link to='#'>سریال</Link>
                      </li>
                      <li>
-                        <Link to='#' className='flex'>
+                        <Link to='#' className='flexCenter gap-1'>
                         <BsJustify />
                         صفحات اختصاصی کلاکت فیلم
                         </Link>
@@ -41,9 +41,9 @@ function NavDesktop() {
                     <button className='bg-zinc-900 py-3.5 px-4 rounded-15px opacity-100 hover:opacity-90 transition-all delay-100 duration-300'>
                         <CiSun size={22}/>
                     </button>
-                    <button className='bg-zinc-900 py-3.5 px-4 rounded-15px opacity-100 hover:opacity-90 transition-all delay-100 duration-300'>
+                    <button className='relative bg-zinc-900 py-3.5 px-4 rounded-15px opacity-100 hover:opacity-90 transition-all delay-100 duration-300 group'>
                         <IoIosNotificationsOutline size={22}/>
-                        {/* <span>1</span> */}
+                        <span className='absolute -top-2 -right-2 flexCenter size-5 font-Estedad-SemiBold text-xs bg-blue-700 rounded-5px opacity-100 group-hover:opacity-90 transition-all delay-100 duration-300'>1</span>
                     </button>
                     <button className='bg-zinc-900 py-3.5 px-4 rounded-15px opacity-100 hover:opacity-90 transition-all delay-100 duration-300'>
                         <IoSearchOutline size={22}/>
