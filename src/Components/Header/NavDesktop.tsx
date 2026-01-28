@@ -6,7 +6,9 @@ import { IoMoonOutline } from "react-icons/io5";
 import { IoVideocamOutline } from "react-icons/io5";
 import { BsJustify } from "react-icons/bs";
 import { Link } from 'react-router-dom';
+import useTheme from '../useTheme/UseTheme';
 function NavDesktop() {
+    const {theme, toggleTheme} = useTheme()
   return (
     <nav>
         <div className="container">
@@ -38,8 +40,8 @@ function NavDesktop() {
                 </ul>
             </div>
             <div className='flex gap-2.5'>
-                    <button className='bg-zinc-900 py-3.5 px-4 rounded-15px opacity-100 hover:opacity-90 transition-all delay-100 duration-300'>
-                        <CiSun size={22}/>
+                    <button onClick={toggleTheme} className='bg-zinc-900 py-3.5 px-4 rounded-15px opacity-100 hover:opacity-90 transition-all delay-100 duration-300'>
+                        {theme === 'dark' ? <CiSun size={22}/> : <IoMoonOutline size={22}/>}
                     </button>
                     <button className='relative bg-zinc-900 py-3.5 px-4 rounded-15px opacity-100 hover:opacity-90 transition-all delay-100 duration-300 group'>
                         <IoIosNotificationsOutline size={22}/>
