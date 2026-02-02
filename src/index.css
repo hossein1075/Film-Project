@@ -42,6 +42,11 @@
   --breakpoint-: ;
   --radius-15px: 0.9375rem; 
   --radius-5px: 0.3125rem; 
+  --color-subMenu: #101014c9;
+  --color-hover-subMenu: #0000004a;
+  --radius-10px: 0.625rem;
+  --color-BluesubMenu: #6898f8;
+  --text-13px: 0.8125rem;
 
 }
 
