@@ -9,3 +9,13 @@
     top: -6px;
     right: 10px;
 }
+
+.beforeDotLists li::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50px;
+    background-color: #4958a5;
+    margin: 6px -14px;
+}

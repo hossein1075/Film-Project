@@ -21,7 +21,7 @@ function NavDesktop() {
                     <img src="/Icons/Favicon/logo.png" className='size-10' alt="film-site" />
                     <span className='font-Estedad-Bold'>کلاکت فیلم</span>
                 </div>
-                <ul className='flexCenter gap-3.75'>
+                <ul className='flexCenter gap-3.75 *:py-2'>
                      <li>
                         <Link to='#'>صفحه اصلی</Link>
                      </li>
@@ -32,7 +32,7 @@ function NavDesktop() {
                         <RiArrowDownSLine/>
                         </Link>
                         {/* subMenu */}
-                        <div className='absolute top-9 hidden group-hover:block w-52 z-40 bg-subMenu transition-all duration-150 delay-75 shadow-[0px_0px_15px_#101014e0] rounded-10px'>
+                        <div className='absolute top-9 opacity-0 invisible backdrop-blur-md group-hover:opacity-100 group-hover:visible w-52 z-40 bg-subMenu/20 light:bg-subMenu/90 transition-all duration-150 delay-75 shadow-[0px_0px_15px_#101014e0] rounded-10px'>
                             <ul className='py-2.5 beforeSubFirst'>
                                 <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
                                     <Link to='#'>اکشن</Link>
@@ -55,7 +55,7 @@ function NavDesktop() {
                         <RiArrowDownSLine/>
                         </Link>
                         {/* subMenu */}
-                         <div className='absolute top-9 hidden group-hover:block w-52 z-40 bg-subMenu transition-all duration-150 delay-75 shadow-[0px_0px_15px_#101014e0] rounded-10px'>
+                         <div className='absolute top-9 opacity-0 invisible backdrop-blur-md group-hover:opacity-100 group-hover:visible w-52 z-40 bg-subMenu/20 light:bg-subMenu/90 transition-all duration-150 delay-75 shadow-[0px_0px_15px_#101014e0] rounded-10px'>
                             <ul className='py-2.5 beforeSubFirst'>
                                 <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
                                     <Link to='#'>اکشن</Link>
@@ -88,55 +88,55 @@ function NavDesktop() {
                         <RiArrowDownSLine/>
                         </Link>
                         {/* subMenu */}
-                         <div className='absolute top-9 hidden group-hover:block w-200 z-40 bg-subMenu transition-all duration-150 delay-75 shadow-[0px_0px_15px_#101014e0] rounded-10px'>
-                            <ul className='py-2.5 beforeSubFirst'>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>250 فیلم برتر imdb</Link>
+                         <div className='absolute top-9 opacity-0 invisible backdrop-blur-md group-hover:opacity-100 group-hover:visible w-200 z-40 bg-subMenu/20 light:bg-subMenu/90 transition-all duration-150 delay-75 shadow-[0px_0px_15px_#101014e0] rounded-10px'>
+                            <ul className='p-5 beforeSubFirst beforeDotLists grid grid-cols-3'>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>250 فیلم برتر imdb</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>250 سریال برتر imdb</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>250 سریال برتر imdb</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>فیلم های coming soon!</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>فیلم های coming soon!</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>لیست بازیگران</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>لیست بازیگران</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>لیست های کاربران</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>لیست های کاربران</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>کالکشن</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>کالکشن</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>ورود/ عضویت پیامکی</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>ورود/ عضویت پیامکی</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>ورود به سایت</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>ورود به سایت</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>عضویت در سایت</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>عضویت در سایت</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>فراموشی رمز عبور</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>فراموشی رمز عبور</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>پنل کاربری</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>پنل کاربری</Link>
                                 </li>
-                                <li className='w-full py-1.5 px-3.5 transition-all duration-150 delay-75 hover:bg-hover-subMenu text-13px'>
-                                    <span className='beforeList'></span>
-                                    <Link to='#'>وبلاگ</Link>
+                                <li className='w-full py-1.5 px-3.5 text-13px'>
+                                    
+                                    <Link to='#' className='p-1.5 transition-all duration-150 delay-300 hover:text-blue-700 hover:mr-2.5'>وبلاگ</Link>
                                 </li>
                             </ul>
                         </div>
