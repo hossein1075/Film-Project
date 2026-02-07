@@ -38,7 +38,7 @@
   --font-Estedad-ExtraBold: "Estedad ExtraBold";
   --font-Estedad-SemiBold: "Estedad SemiBold";
   --font-Estedad-Medium: "Estedad Medium";
-  --breakpoint-: ;
+  --breakpoint-xs300px: 18.75rem;
   --breakpoint-: ;
   --radius-15px: 0.9375rem; 
   --radius-5px: 0.3125rem; 
