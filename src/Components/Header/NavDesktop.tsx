@@ -13,8 +13,8 @@ import './befores.css'
 function NavDesktop() {
     const {theme, toggleTheme} = useTheme()
   return (
-    <nav className='hidden lg:block'>
-        <div className="container">
+    <nav className='hidden relative z-40 lg:block'>
+        <div className="container-sec px-4">
             <div className='flex justify-between py-4'>
             <div className='flex basis-[70%] gap-5'>
                 <div className='flexCenter gap-1'>

@@ -47,6 +47,8 @@
   --radius-10px: 0.625rem;
   --color-BluesubMenu: #6898f8;
   --text-13px: 0.8125rem;
+  --text-28px: 1.75rem;
+
 
 }
 
@@ -63,6 +65,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .direction-ltr {
+    direction: ltr;
+  }
+  .container-sec {
+    width: 100%;
   }
   
 }
@@ -89,5 +97,5 @@
 /* container */
 
 @utility container {
-  @apply mx-auto px-3.75
+  @apply mx-auto 
 }

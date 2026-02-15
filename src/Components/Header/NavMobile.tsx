@@ -8,8 +8,8 @@ import SideBar from './SideBar';
 function NavMobile() {
   return (
    <>
-    <nav className='block lg:hidden'>
-        <div className="container">
+    <nav className='block relative z-40 lg:hidden'>
+        <div className="container-sec">
             <div className='flex justify-between py-4'>
               <div className='flexCenter'>
                 <FaBars size={22}/>

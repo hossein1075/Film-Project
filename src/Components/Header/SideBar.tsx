@@ -7,7 +7,7 @@ import useTheme from '../useTheme/UseTheme'
 function SideBar() {
   const { theme, toggleTheme } = useTheme()
   return (
-    <div className='w-[70%] fixed top-0 h-full bg-zinc-900 z-50 light:bg-slate-50'>
+    <div className='hidden w-[70%] fixed top-0 h-full bg-zinc-900 z-50 light:bg-slate-50'>
 
       <div className='flexCenter gap-1'>
         <img src="/Icons/Favicon/logo.png" className='size-10' alt="film-site" />

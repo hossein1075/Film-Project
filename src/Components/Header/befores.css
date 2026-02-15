@@ -19,3 +19,29 @@
     background-color: #4958a5;
     margin: 6px -14px;
 }
+
+.border-circle::before {
+    content: '';
+    position: absolute;
+    border: solid 1px rgb(255, 255, 255, 50%);
+    background: transparent;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    
+}
+.border-circle::after {
+    content: '';
+    position: absolute;
+    border: solid 1px rgb(255, 255, 255, 50%);
+    background: transparent;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    
+}
+
+.border-circle:hover::before,
+.border-circle:hover::after {
+    transform: scale(1.2);
+}
