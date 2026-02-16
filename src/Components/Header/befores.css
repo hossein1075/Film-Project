@@ -19,6 +19,9 @@
     background-color: #4958a5;
     margin: 6px -14px;
 }
+.border-circle {
+    position: relative;
+}
 
 .border-circle::before {
     content: '';
